@@ -1,30 +1,36 @@
 #include<stdio.h>
+#include<stdint.h>
 
-int main(int argc,char**argv)
+int main(int argc,char **argv)
 {
-  printf("charå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(char));
-  printf("intå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(int));
-  printf("shortå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(short));
-  printf("longå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(long));
-  printf("long longå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(long long));
-  printf("_Boolå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(_Bool));
-  printf("signed charå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(signed char));
-  printf("unsigned charå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned char));
-  printf("unsigned intå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned int));
-  printf("unsigned shortå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned short));
-  printf("unsigned long longå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned long long));
-  printf("intN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(intN_t));
-  printf("uintN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(uintN_t));
-  printf("int_leastN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(int_leastN_t));
-  printf("uintN_leastN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(uintN_leastN_t));
-  printf("int_fastN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(int_fastN_t));
-  printf("uint_fastN_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(nint_fastN_t));
-  printf("intmax_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(intmax_t));
-  printf("uintmax_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(uintmax_t));
-  printf("intptr_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(intptr_t));
-  printf("uintptr_tå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(intptr_t));
-  printf("floatå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(float));
-  printf("doubleå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(double));
-  printf("long doubleå‹:%zuãƒã‚¤ãƒˆ\n",sizeof(long double));
+  printf("charŒ^:%dƒoƒCƒg\n",sizeof(char));
+  printf("intŒ^:%dƒoƒCƒg\n",sizeof(int));
+  printf("shortŒ^:%dƒoƒCƒg\n",sizeof(short));
+  printf("longŒ^:%dƒoƒCƒg\n",sizeof(long));
+  printf("long longŒ^:%dƒoƒCƒg\n",sizeof(long long));
+  printf("_BoolŒ^:%dƒoƒCƒg\n",sizeof(_Bool));
+  printf("signed charŒ^:%dƒoƒCƒg\n",sizeof(signed char));
+  printf("unsigned longŒ^:%dƒoƒCƒg\n",sizeof(unsigned long));
+  printf("unsigned charŒ^:%dƒoƒCƒg\n",sizeof(unsigned char));
+  printf("unsigned intŒ^:%dƒoƒCƒg\n",sizeof(unsigned int));
+  printf("unsigned shortŒ^:%dƒoƒCƒg\n",sizeof(unsigned short));
+  printf("unsigned long longŒ^:%dƒoƒCƒg\n",sizeof(unsigned long long));
+  printf("intmax_tŒ^:%dƒoƒCƒg\n",sizeof(intmax_t));
+  printf("uintmax_tŒ^:%dƒoƒCƒg\n",sizeof(uintmax_t));
+  printf("intptr_tŒ^:%dƒoƒCƒg\n",sizeof(intptr_t));
+  printf("uintptr_tŒ^:%dƒoƒCƒg\n",sizeof(intptr_t));
+  printf("floatŒ^:%dƒoƒCƒg\n",sizeof(float));
+  printf("doubleŒ^:%dƒoƒCƒg\n",sizeof(double));
+  printf("long doubleŒ^:%dƒoƒCƒg\n",sizeof(long double));
+/*
+  ‚±‚ÌŠÂ‹«‚Å‚Í"%zu"‚ªg—p‚Å‚«‚¸"%d"‚ğg—p‚µ‚Ü‚µ‚½B
+  ‚Ü‚½‰º‹L‚ÌŒ^‚ÍƒRƒ“ƒpƒCƒ‹‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
+  printf("intN_tŒ^:%dƒoƒCƒg\n",sizeof(intN_t));
+  printf("uintN_tŒ^:%dƒoƒCƒg\n",sizeof(uintN_t));
+  printf("int_leastN_tŒ^:%dƒoƒCƒg\n",sizeof(int_leastN_t));
+  printf("uintN_leastN_tŒ^:%dƒoƒCƒg\n",sizeof(uintN_leastN_t));
+  printf("int_fastN_tŒ^:%dƒoƒCƒg\n",sizeof(int_fastN_t));
+  printf("uint_fastN_tŒ^:%dƒoƒCƒg\n",sizeof(nint_fastN_t));
+*/
   return(0);
 }
